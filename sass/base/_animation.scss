@@ -1,0 +1,43 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); /* moves -100px left x-axis */
+  } /* start(timeframe) */
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0); /* back to normal */
+  } /* end(timeframe) */
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); /* moves -100px left x-axis */
+  } /* start(timeframe) */
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0); /* back to normal */
+  } /* end(timeframe) */
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); /* moves 30px left y-axis */
+  } /* start(timeframe) */
+
+  100% {
+    opacity: 1;
+    transform: translate(0); /* back to normal */
+  } /* end(timeframe) */
+}
